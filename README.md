@@ -1,13 +1,7 @@
-# movie-combiner
-<!DOCTYPE html>
-<html>
-<head>
-<title></title>
-</head>
-<body>
+# Combnr
 
-<h1></h1>
-<p></p>
+This was a project that we created for our capstone. 
+Our Frontend stack is just HTML, CSS, and Javascript.
 
-</body>
-</html>
+We even created a node server using Express that just interfaces with the OMDB API and scrapes metacritic for movie reviews.
+
