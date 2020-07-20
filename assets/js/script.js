@@ -15,17 +15,17 @@ window.onload = function(){
     bookData["bookmarks"] = JSON.parse(localStorage.getItem("bookmarks"));
 }
 
-const bookmarkButton = document.querySelector('i#bookmark');
-bookmarkButton.addEventListener('click',(e)=>{
-    // consol
-    let title = document.querySelector('.poster figcaption').textContent;
-    if(!bookData['bookmarks'].find(element=> element['title']=== title)){
-        add(title)
-    }else{
-        //Prevent Modal from Popping Up
-        e.stopPropagation();
-    }
-})
+// const bookmarkButton = document.querySelector('i#bookmark');
+// bookmarkButton.addEventListener('click',(e)=>{
+//     // consol
+//     let title = document.querySelector('.poster figcaption').textContent;
+//     if(!bookData['bookmarks'].find(element=> element['title']=== title)){
+//         add(title)
+//     }else{
+//         //Prevent Modal from Popping Up
+//         e.stopPropagation();
+//     }
+// })
 
 function add(obj){
     // console.log(typeof bookData)
